@@ -42,7 +42,7 @@ class Test {
 
 
   moveAnimation ({ X, Y, FIRSTFRAME, LASTFRAME }) {
-    return alert(X + Y + FIRSTFRAME + LASTFRAME)
+    return true
   }
 }
 

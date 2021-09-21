@@ -18,19 +18,19 @@ class Test {
           text: 'go to [X] [Y] with [FIRSTFRAME]to[LASTFRAME]animation',
           arguments: {
             X: {
-              type: ArgumentType.number,
+              type: ArgumentType.NUMBER,
               defaultValue: '0'
             },
             FIRSTFRAME: {
-              type: ArgumentType.number,
+              type: ArgumentType.NUMBER,
               defaultValue: '0'
             },
             LASTFRAME: {
-              type: ArgumentType.number,
+              type: ArgumentType.NUMBER,
               defaultValue: '0'
             },
             Y: {
-              type: ArgumentType.number,
+              type: ArgumentType.NUMBER,
               defaultValue: '0'
             }
           }
